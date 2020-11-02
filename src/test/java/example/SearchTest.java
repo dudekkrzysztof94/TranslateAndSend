@@ -25,10 +25,9 @@ public class SearchTest {
     public void testGoogleSearch() {
 //        WebElement element = driver.findElement(By.name("q"));
 //        element.clear();
-//
 //        element.sendKeys("Testowanie Selenium WebDriver");
-//
 //        element.submit();
+
         WebElement reflectionTitle = driver.findElement(By.xpath("//article/center"));
         WebElement reflectionQuote = driver.findElement(By.xpath("//article/b"));
         WebElement reflectionSource = driver.findElement(By.xpath("//article/div/font/i"));

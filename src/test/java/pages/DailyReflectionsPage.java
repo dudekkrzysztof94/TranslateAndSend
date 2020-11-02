@@ -22,4 +22,8 @@ public class DailyReflectionsPage extends BasePage{
 
     @FindBy(xpath="//article")
     private WebElement reflectionText;
+
+    public String getDailyReflectionsText() {
+        return reflectionText.getText();
+    }
 }
